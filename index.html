@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+   <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.luara.0.0.1.min.js"></script>
+    <script src="js/index.js"></script>
+   <script>
+      jQuery(document).ready(function(){
+ 	    jQuery('#holder').show();
+	    jQuery('#imgBox').simple_slider({
+		  'leftID': 'leftNav',
+		  'rightID': 'rightNav',
+		  'display': 5
+	      })
+       });
+   </script>
+   <script>
+    $(function(){
+      $(".example").luara({width:"305",height:"505",interval:4000,selected:"seleted"});
+   });
+</script>	 
+   
+</head>
+ 
+  <body>
+  			<!--start：导航-->
+		<div class="header">
+			<div class="header-top container clearfix">
+				<a class="header-logo" href="#" target="_self">
+					<img src="images/header-logo.png" />
+				</a>
+				<div class="header-d">
+					<ul>
+						<li><a href="#"><span class="vip"></span>
+						APP下载 
+						</a></li>
+					    <li>
+						<a href="#"><span class="mb"></span>
+						VIP会员
+						</a></li>
+					</ul>
+				</div>
+			</div>
+				</div>
+			<div class="nav">
+			<div class="header-bottom container clearfix">
+				<div class=" nav-list">
+				<ul>
+					<li><a href="#" class="nav-item current" target="_self">
+					首页</a></li>
+					<li><a href="#" target="_self">性感美女</a></li>
+					<li><a href="#" target="_self">搞笑视频</a></li>
+					<li><a href="#" target="_self">言情小说</a></li>
+					<li><a href="#" target="_self">家庭伦理</a></li>
+				</ul>
+				</div>
+				<div class="header-s fr">
+					<form>
+					<div class="form-group" id="click">
+					<input type="text" readonly="readonly" class="input-click" value="视频" />
+					<span class="item" id="firstpane"></span>
+					<ul class="dropdown">
+						<li><a href="#">电影</a></li>
+						<li><a href="#">图片</a></li>
+						<li><a href="#">小说</a></li>
+						<li><a href="#">其它</a></li>
+					</ul>
+				  </div>
+	        <div class="form-search">
+					<input class="form-control" placeholder="请输入关键字">
+				    </div>
+				    <button type="submit" class="btn-serch" ><span class="so"></span>搜索</button>
+					</form>
+					</div>
+			</div>
+		 </div>
+		<!--end：导航-->
+	
+		<!--start:主体内容-->
+			<div class="content container clearfix">
+			  	 <div class="video-tab fl clearfix">
+             <div class="con">
+		  <div class="slider-container">
+		  <div class="slider">
+			<div class="slider__item">
+			  <img src="images/1.jpg" >
+			 <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			<div class="slider__item">
+			  <img src="images/2.jpg" >
+			 <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			<div class="slider__item">
+			  <img src="images/1.jpg" >
+			 <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			<div class="slider__item">
+			  <img src="images/1.jpg" >
+			 <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			<div class="slider__item">
+			  <img src="images/2.jpg" >
+			  <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			<div class="slider__item">
+			  <img src="images/2.jpg" >
+			  <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			<div class="slider__item">
+			  <img src="images/1.jpg" >
+			  <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			<div class="slider__item">
+			  <img src="images/2.jpg" >
+			  <span class="slider__caption">
+			  	<h3>快乐大本营</h3>
+			  	<p>侯明昊现场教你如何撩妹，单身狗必学课程</p>
+			  </span>
+			</div>
+			
+		 </div>        
+			<div class="slider__switch slider__switch--prev" data-ikslider-dir="prev" disabled="disabled">
+			  <span class="left"></span>
+			</div>
+			<div class="slider__switch slider__switch--next" data-ikslider-dir="next">
+			  <span class="right"></span>
+			</div>
+		</div>
+		<div class="preview">
+		  <a href="#1"><img src="images/1.jpg"  /></a>
+		  <a href="#2"><img src="images/2.jpg"  /></a>
+		  <a href="#3"><img src="images/1.jpg"  /></a>
+		  <a href="#1"><img src="images/1.jpg"  /></a>
+		  <a href="#2"><img src="images/2.jpg"  /></a>
+		  <a href="#3"><img src="images/2.jpg"  /></a>
+		  <a href="#3"><img src="images/1.jpg"  /></a>
+		  <a href="#3"><img src="images/2.jpg"  /></a>
+		</div>
+	</div>
+           </div>
+			  <div class="video-list fr">
+			  	<div class="list-tit clearfix">
+			  		<span class="t1 sav">最新推荐视频</span>
+			  		<span class="t1 ">最近更新</span>
+			  	</div>
+			  <div class="list-cnt">
+			  	<ul class="usav">
+          <li><a href="#"><span class="hot fr">2017-10-18</span><span class="tgt">1</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tgt">2</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tgt">3</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">4</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">5</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">6</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">7</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr fr">2017-10-18</span><a href="#"><span class="tit">8</span>快乐大本营 </a></li>
+			  		<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">9</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">10</span>快乐大本营 </a></li>
+			  	<li><span class="hot fr fr">2017-10-18</span><a href="#"><span class="tit">11</span>快乐大本营 </a></li>
+			  	</ul>
+			  	<ul>
+          <li><span class="hot fr">2017-10-18</span><a href="#"><span class="tgt">1</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tgt">2</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tgt">3</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">4</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">5</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">6</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">7</span>花儿与少年</a></li>
+			  	<li><span class="hot fr fr">2017-10-18</span><a href="#"><span class="tit">8</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">6</span>花儿与少年 </a></li>
+			  	<li><span class="hot fr">2017-10-18</span><a href="#"><span class="tit">7</span>花儿与少年</a></li>
+			  	<li><span class="hot fr fr">2017-10-18</span><a href="#"><span class="tit">8</span>花儿与少年 </a></li>
+			  	</ul>
+			  </div>
+			  </div>
+			</div>
+
+<script type="text/javascript">
+		$(".slider-container").ikSlider({
+		  speed: 500
+		});
+		$(".slider-container").on('changeSlide.ikSlider', function (evt) { console.log(evt.currentSlide); });
+	</script>
+	<script type="text/javascript">
+		var $preview = $('.preview a');
+
+		function changeActivePreview(i) {
+		  $('.active').removeClass('active');
+		  $preview.eq(i).addClass('active');
+		}
+
+		$preview.on('click', function(e) {
+		  e.preventDefault();
+		  var index = $(this).index();
+		  $('.slider-container').ikSlider(index);
+		});
+
+		$('.slider-container').on('changeSlide.ikSlider', function(e) {
+		  changeActivePreview(e.currentSlide);
+		});
+
+		changeActivePreview(0)
+	</script>
+			
+			<!--end：主体内容-->
+      
+		  <!--start:最新推荐视频-->
+	        <div class="tj container clearfix">
+	        	<div class="new-cnt fl clearfix">
+	        			<div class="new-tit">
+	        				<h3>最新推荐视频</h3>
+	        				<span>精彩视频，不一样的精彩，带给你不一样的体验</span>
+	        			</div>
+	        			<div class="new-list clearfix">
+	        				<ul>
+	        					<li class="l1 active"><a href="#">欧美大片</a></li>
+	        					<li class="l2"><a href="#">最新电影</a></li>
+	        					<li class="l3"><a href="#">国产电影</a></li>
+	        				</ul>
+	        			</div>
+	        			<div class="click">
+	        			<a href="#">点击查看</a>	
+	        			</div>
+	        		</div>
+	        		<div class="new-videos fr clearfix">
+	        			<ul class="on">
+	        			  <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>贴身校花2</a></li>
+	        				  <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>贴身校花2</a></li>
+	        				  <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>贴身校花2</a></li>
+	        				  <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>贴身校花2</a></li>
+	        				  <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>贴身校花2</a></li>
+	        				  <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>贴身校花2</a></li>
+	        				</ul>
+	        		  
+	        		  <ul >
+	        			  <li><a href="#"><i class="bg"></i><img src="images/video1.jpg"/>微微一笑城</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video1.jpg"/>微微一笑城</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video1.jpg"/>微微一笑城</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video1.jpg"/>微微一笑城</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video1.jpg"/>微微一笑城</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video1.jpg"/>微微一笑城</a></li>
+	        			</ul>
+	        		  
+	        		  <ul>
+	        			  <li><a href="#"><i class="bg"></i><img src="images/video2.jpg"/>无心法师</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video2.jpg"/>无心法师</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video2.jpg"/>无心法师</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video2.jpg"/>无心法师</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video2.jpg"/>无心法师</a></li>
+	        				<li><a href="#"><i class="bg"></i><img src="images/video2.jpg"/>无心法师</a></li>
+	        			</ul>
+	        		</div>
+	        	
+	        	<div class="video-tab2 fl">
+	        		
+	        	 <div class="kePublic clearfix">
+<!--效果html开始-->
+<div id='holder' style='display:none;' class="clearfix">
+<img src='images/left.jpg' id='leftNav' />
+<span id='imgBox' >
+	<ul>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                  贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                  贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+      <li><a href="#"><i class="bg"></i><img src='images/video.jpg' class='objImgFrame' />
+                 贴身校花 2</a></li>
+	    </ul>
+	    </span>
+     <span id='rightNav'></span>
+  </div>
+  </div>
+  </div>
+	      </div>
+	        </div>
+	      <!--end:最新推荐视频-->
+	     
+	      <!--start:小说-->   
+	      <div class="story  container clearfix">
+	           <div class="story-cnt clearfix">
+	           	 <div class="story-tab fl">
+	           	   	<h3>最新小说</h3>
+	           	 	<div class="story-tit">
+	           	 		<span class="s1">言情小说</span>
+	           	 		<span>校园小说</span>
+	           	 		<span>穿越小说</span>
+	           	 		<span>家庭伦理</span>
+	           	 	</div>
+	           	 	
+	           	 	<div class="tab-cnt">
+	           	 		<ul class="on">
+	           	 		  	<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">1</span>
+	           	 				俗世地仙</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">2</span>
+	           	 				俗世地仙</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">3</span>
+	           	 				俗世地仙</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">4</span>
+	           	 				俗世地仙</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">5</span>
+	           	 				俗世地仙</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">6</span>
+	           	 				俗世地仙</a></li>
+	           	 		</ul>
+	           	 		
+	           	 		<ul>
+	           	 		  	<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">1</span>
+	           	 				黑道学生</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">2</span>
+	           	 				黑道学生</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">3</span>
+	           	 				黑道学生</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">4</span>
+	           	 				黑道学生</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">5</span>
+	           	 				黑道学生</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">6</span>
+	           	 				黑道学生</a></li>
+	           	 		</ul>
+	           	 		
+	           	 		<ul>
+	           	 		  	<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">1</span>
+	           	 				微微一笑</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">2</span>
+	           	 				微微一笑</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">3</span>
+	           	 				微微一笑</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">4</span>
+	           	 				微微一笑</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">5</span>
+	           	 				微微一笑</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">6</span>
+	           	 				微微一笑</a></li>
+	           	 		</ul>
+	           	 		
+	           	 		<ul>
+	           	 		  	<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">1</span>
+	           	 				天龙八部</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">2</span>
+	           	 				天龙八部</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">3</span>
+	           	 				天龙八部</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">4</span>
+	           	 				天龙八部</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">5</span>
+	           	 				天龙八部</a></li>
+	           	 				<li><a href="#"><span class="time fr">2017-10-20</span><span class="tit">6</span>
+	           	 				天龙八部</a></li>
+	           	 		</ul>
+	           	 	</div>
+	           	 </div>
+	           	 
+	           	 <div class="tj-story fr">
+	           	 	<h3>推荐小说</h3>
+	           	 	<ul>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 			<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 		<li><a href="#"><span class="time fr">2017-10-20</span>郡主要休夫</a></li>
+	           	 	</ul>
+	           	 </div>
+	           	</div>
+	           </div>
+	    <!--end:小说--> 
+	    
+	    <!--start:性感美女-->
+	            <div class="pic container clearfix">
+	              <div class="pic-cnt  clearfix">
+	              	 <div class="pic-nav">
+	              	 	<span class="active">推荐美女</span>
+	              	 	<span>性感美女  </span>
+	              	 	<span>抚媚诱惑</span>
+	              	 </div>
+	              	 
+	              	   <div class="tab">
+	              	   	<div class="example fl">
+                         <ul>
+                           <li><img src="images/pic.png" alt="1"/></li>
+                           <li><img src="images/pic.png" alt="2"/></li>
+                           <li><img src="images/pic.png" alt="3"/></li>
+                           <li><img src="images/pic.png" alt="4"/></li>
+                         </ul>
+                         <ol>
+                            <li><span class="text">性感美女写真集</span></li>
+                            <li><span class="text">性感美女写真集</span></li>
+                            <li><span class="text">性感美女写真集</span></li>
+                            <li><span class="text">性感美女写真集</span></li>
+                          </ol>
+                     </div>
+	              	  <div class="tab-all ds ">
+	              	  <div class="pic-big fl">
+                		<ul>
+	              	  		<li><img src="images/pic.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  	</ul>
+	              	  </div>
+	              	  <div class="pic-pics fr">
+	              	  	<ul>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  	</ul>
+	              	  </div>
+	              </div>
+	                   
+	                   <div class="tab-all ">
+	                  <div class="pic-big fl">
+                		<ul>
+	              	  		<li><img src="images/pic2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  	</ul>
+	              	  </div>
+	              	  <div class="pic-pics fr">
+	              	  	<ul>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small2.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  	</ul>
+	              	  </div>
+	              </div>
+	                   
+	                   <div class="tab-all  ">
+	              	<div class="pic-big fl">
+                		<ul>
+	              	  		<li><img src="images/pic3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/pic3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			<span>气质美女</span>
+                			<span>火辣身材...</span>
+                			<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  	</ul>
+	              	  </div>
+	              	  <div class="pic-pics fr">
+	              	  	<ul>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  		<li><img src="images/small3.jpg"/>
+	              	  		<div class="cover">
+                			 <span>性感</span>
+                			 <span>气质美女</span>
+                			 <span>火辣身材...</span>
+                		  	<a href="#">查看详情</a>
+                		   </div>
+	              	  		</li>
+	              	  	</ul>
+	              	  </div>
+	              </div>
+	           </div>
+	            <span class="pic-bg"></span>
+	        </div>
+	      </div>
+	    <!--end:性感美女-->
+	  
+     <div class="footer">
+				<!--start:友情链接-->
+	     <div class="blogroll container clearfix">
+	     	     <ul>
+	     	     	<li><a class="tit" href="#">友情链接：</a></li>
+	           	  <li><a href="#">熊猫看书 </a></li>
+	           		<li><a href="#">言情小说</a></li>
+	           		<li><a href="#">穿越小说</a></li>
+	           		<li><a href="#"> 四月天女生网</a></li>
+	           		<li><a href="#">好看的小说</a></li>
+	           		<li><a href="#">免费小说</a></li>
+	           		<li><a href="#"> 全文阅读</a></li>
+	           		<li><a href="#">雨枫轩</a></li>
+	           		<li><a href="#"> 书城书海小说网 </a></li>
+	           		<li><a href="#"> 飞卢小说  </a></li>
+	           		<li><a href="#"> 网云端书架</a></li>
+	           		<li><a href="#">   看书网龙腾网龙</a></li>
+	           		<li><a href="#">的天空漫</a></li>
+	           		<li><a href="#">  漫看评书</a></li>
+	         	   	<li><a href="#">凤凰网读书</a></li>
+	           		<li><a href="#"> 蚂蜂窝旅游</a></li>
+	           		<li><a href="#"> 攻略书香电 </a></li>
+	           		<li><a href="#">子书亿智  </a></li>
+	           		<li><a href="#">蘑菇创</a></li>
+	           		<li><a href="#">  世中文网文章阅</a></li>
+	           		<li><a href="#"> 读网人生格   </a></li>
+	           		</ul>
+	           </div>
+	     <!--end:友情链接-->
+	     
+               
+	  <!--start:底部-->
+		  <div class="footer-txt">
+		  	<div class="txt container">
+	 	<p> 请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，立即删除<br />
+ 小说网是中国最具影响力的小说网，提供大量好看的言情小说在线阅读</p>
+		  	</div>
+	         </div>
+         <!--end:底部-->
+         </div>
+         <!--回到顶部-->
+        <div class="back-top" id="back-top" >
+	      <p ><a href="#top">
+	      	<img src="images/top.png"/></a></p>
+        </div>
+	 </body>
+</html>
